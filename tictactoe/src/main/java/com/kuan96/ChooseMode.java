@@ -17,15 +17,15 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 public class ChooseMode implements ActionListener {
-    JFrame frame = new JFrame();
-    JPanel title_panel = new JPanel();
-    JLabel title = new JLabel();
-    JLabel title2 = new JLabel();
-    JPanel image_panel = new JPanel();
-    JPanel button_panel = new JPanel();
-    JButton b1 = new JButton();
-    JButton b2 = new JButton();
-    ImageIcon image = new ImageIcon("tictactoe\\src\\main\\java\\com\\kuan96\\tictactoe.png");
+    public JFrame frame = new JFrame();
+    public JPanel title_panel = new JPanel();
+    public JLabel title = new JLabel();
+    public JLabel title2 = new JLabel();
+    public JPanel image_panel = new JPanel();
+    public JPanel button_panel = new JPanel();
+    public JButton b1 = new JButton();
+    public JButton b2 = new JButton();
+    public ImageIcon image = new ImageIcon("tictactoe\\src\\main\\java\\com\\kuan96\\tictactoe.png");
 
     public ChooseMode() {
         frame.setIconImage(image.getImage());

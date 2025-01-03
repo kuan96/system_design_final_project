@@ -5,6 +5,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import java.util.Random;
 
+import javax.swing.JButton;
+
 public class SingleMode extends GameFrame{
 	private String[] text = new String[2];
 	private Color[] color = new Color[2];
@@ -23,6 +25,22 @@ public class SingleMode extends GameFrame{
 		
 		this.function = new OperateFunctions();
 	}
+
+	public String[] getText() {
+        return text;
+    }
+
+    public Color[] getColor() {
+        return color;
+    }
+
+    public int getTurn() {
+        return turn;
+    }
+
+    public JButton[] getButtons() {
+        return buttons;
+    }
 
 	public void counter()
 	{

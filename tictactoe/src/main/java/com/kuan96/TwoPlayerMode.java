@@ -4,6 +4,8 @@ import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 
+import javax.swing.JButton;
+
 public class TwoPlayerMode extends GameFrame{
 	
 	private String[] text = new String[2];
@@ -23,6 +25,22 @@ public class TwoPlayerMode extends GameFrame{
 		
 		this.function = new OperateFunctions();
 	}
+
+	public String[] getText() {
+        return text;
+    }
+
+    public Color[] getColor() {
+        return color;
+    }
+
+    public int getTurn() {
+        return turn;
+    }
+
+    public JButton[] getButtons() {
+        return buttons;
+    }
 	
 	@Override
 	public void actionPerformed(ActionEvent e) 
